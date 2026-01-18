@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HealthController {
+public class HealthEchoController {
 
     @GetMapping("/health")
     public Map<String,String> health(){
